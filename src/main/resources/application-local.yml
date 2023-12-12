@@ -1,0 +1,11 @@
+DB_USERNAME: root
+DB_URL: jdbc:mysql://localhost:3306/prism_member_db
+DB_PASSWORD: root
+REST_URI: /api
+JWT_SECRET: codespice
+IGNORE_URL: /**,/swagger-ui/**,/v3/api-docs/**
+JWT_TOKEN_VALIDITY: 18000
+# file:
+#  upload:
+#    directory: C:/Downloads/uploads
+#http://localhost:8080/swagger-ui-custom.html For Swagger
